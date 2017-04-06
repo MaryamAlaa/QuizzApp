@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.youssefalaa.quizapp.MainActivity">
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/q1"
+          />
+      <RadioGroup
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/q1_firstRAns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ten"
+          />
+      <RadioButton
+          android:id="@+id/q1_firstFns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Five"
+          />
+      </RadioGroup>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/q2"
+          />
+      <RadioGroup
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/q2_firstRAns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text=" Multilevel inheritance"
+          />
+      <RadioButton
+          android:id="@+id/q2_firstFAns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Polymorphic inheritance"
+          />
+      </RadioGroup>
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/q3"
+          />
+      <RadioGroup
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      <RadioButton
+          android:id="@+id/q3_firstFAns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="True"
+          />
+      <RadioButton
+          android:id="@+id/q3_firstRAns"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="False"
+          />
+      </RadioGroup>
+
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/q4"
+          />
+      <CheckBox
+          android:id="@+id/q4_firstRans"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="JAVA"
+          />
+      <CheckBox
+          android:id="@+id/q4_secRans"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="PYTHON"
+          />
+      <CheckBox
+          android:id="@+id/q4_firstFans"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="OPERA"
+          />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/q5"
+          />
+      <EditText
+          android:id="@+id/q5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/Name"
+          android:inputType="textCapWords"/>
+
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/submit"
+          android:onClick="Submit"/>
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="Name">Name</string>
+    <string name="q1">1-what is the Value of a in a = (b = 5, b + 5);</string>
+    <string name="q2">2-class derived: public base1, public base2 { } is an example of</string>
+    <string name="q3">3-A null pointer is nothing but a void pointer pointing to nowhere</string>
+    <string name="q4">4-what is programming language?</string>
+    <string name="q5">5-what is your name?</string>
+    <string name="submit">SUBMIT</string>
+
+
+</resources>
